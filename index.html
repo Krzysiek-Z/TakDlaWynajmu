@@ -10,7 +10,13 @@
     <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
-
+    <div id="splash-screen">
+        <div class="splash-content">
+            <img src="logo.png" alt="Logo TakDlaWynajmu!" class="splash-logo">
+            <div class="logo-text">TakDlaWynajmu<span>!</span></div>
+            <div class="loader"></div>
+        </div>
+    </div>
     <nav>
         <a href="index.html" class="logo-area">
             <img src="logo.png" alt="Logo TakDlaWynajmu!">
@@ -23,19 +29,56 @@
             <li><a href="miasto.html">Miasto</a></li>
         </ul>
     </nav>
-
     <div class="container">
         <main>
-            <h1>Dlaczego wynajem auta to Twoje "zielone światło" w podróży?</h1>
-            <p>Witamy na <strong>TakDlaWynajmu!</strong> – miejscu, gdzie udowadniamy, że własne cztery kółka to nie jedyna droga do pełnej swobody przemieszczania się. Istnieje wiele sytuacji, w których wynajem staje się nie tylko opcją, ale najmądrzejszym wyborem.</p>
+            <h1>Mobilność bez granic: Kiedy wynajęty samochód staje się Twoim najlepszym planem?</h1>
             
-            <h2>Sytuacje, które zmieniają zasady gry</h2>
-            <p>Często myślimy o wynajmie aut tylko w kontekście dalekich wycieczek. Jednak rzeczywistość pokazuje, że sprawdzona wypożyczalnia może uratować Twój dzień, gdy własne auto odmówi posłuszeństwa, lub gdy potrzebujesz czegoś bardziej dopasowanego do konkretnej okazji.</p>
-            
-            <h3>Twoje korzyści z TakDlaWynajmu!</h3>
-            <p>Dzięki nowoczesnym rozwiązaniom mobilnym, masz dostęp do szerokiej floty pojazdów – od małych aut miejskich po przestronne vany i modele klasy premium. Wszystko to bez zbędnych formalności, z jasnymi zasadami i pełnym wsparciem na każdym etapie podróży.</p>
-        </main>
+            <p>Życie rzadko trzyma się sztywnego planu. Często to właśnie te nieprzewidziane momenty – od nagłej usterki w drodze do pracy, po spontaniczny pomysł na weekendowy wyjazd – testują naszą zaradność. W <strong>TakDlaWynajmu!</strong> wierzymy, że brak własnego samochodu w danej chwili nigdy nie powinien być barierą.</p>
 
+            <p>Wynajem samochodu to dziś znacznie więcej niż tylko usługa turystyczna. To Twoja "deska ratunku", gdy liczy się czas, komfort i niezawodność. Kluczem do sukcesu jest jednak to, by cały proces był <strong>całkowicie bezproblemowy</strong>. Nikt nie chce przebijać się przez stosy dokumentów, gdy stoi na poboczu z dymiącą maską, lub gdy właśnie wylądował w obcym mieście na ważne spotkanie biznesowe.</p>
+
+            <h2>Komfort i standard dopasowany do Ciebie</h2>
+            <p>Współczesny wynajem musi przede wszystkim <strong>spełniać oczekiwania</strong>. Potrzebujesz ekonomicznego auta do sprawnego poruszania się po ciasnych uliczkach Krakowa? A może przestronnego SUV-a, który pomieści całą rodzinę i sprzęt kempingowy na wakacje? Dobrze dobrany samochód to nie tylko środek transportu, to gwarancja spokoju ducha i wygody, na którą zasługujesz niezależnie od okoliczności.</p>
+
+            <div class="h-1 w-full bg-gray-100 my-8"></div>
+
+            <h2>Odkryj sytuacje, w których ratujemy Twój dzień:</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 2rem;">
+                
+                <a href="awaria.html" style="text-decoration: none; color: inherit; text-align: center;">
+                    <div style="background: #fff; border-radius: 12px; overflow: hidden; transition: transform 0.3s; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="img_awaria.png" alt="Awaria na trasie" style="width: 100%; height: 150px; object-fit: cover;">
+                        <div style="padding: 15px;">
+                            <h3 style="margin: 0; font-size: 1.1rem; color: var(--brand-color);">Awaria w trasie</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="wakacje.html" style="text-decoration: none; color: inherit; text-align: center;">
+                    <div style="background: #fff; border-radius: 12px; overflow: hidden; transition: transform 0.3s; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="img_wakacje.png" alt="Wynajem na wakacje" style="width: 100%; height: 150px; object-fit: cover;">
+                        <div style="padding: 15px;">
+                            <h3 style="margin: 0; font-size: 1.1rem; color: var(--brand-color);">Urlop bez limitów</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="miasto.html" style="text-decoration: none; color: inherit; text-align: center;">
+                    <div style="background: #fff; border-radius: 12px; overflow: hidden; transition: transform 0.3s; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="img_miasto.png" alt="Auto w innym mieście" style="width: 100%; height: 150px; object-fit: cover;">
+                        <div style="padding: 15px;">
+                            <h3 style="margin: 0; font-size: 1.1rem; color: var(--brand-color);">Mobilność w mieście</h3>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <p style="margin-top: 2rem; font-style: italic; text-align: center; color: #777;">
+                Kliknij w powyższe ikony, aby dowiedzieć się więcej o tym, jak działamy w konkretnych sytuacjach.
+            </p>
+        </main>
         <aside>
             <div class="widget-box">
                 <h2 style="font-size: 1.2rem; margin-top: 0; color: var(--dark-gray);">Zarezerwuj teraz</h2>
@@ -45,7 +88,6 @@
             </div>
         </aside>
     </div>
-
     <footer>
         <div class="footer-grid">
             <div>
@@ -69,6 +111,13 @@
             &copy; 2026 TakDlaWynajmu!
         </div>
     </footer>
-
+    <script>
+        window.addEventListener('load', function() {
+            const splash = document.getElementById('splash-screen');
+            setTimeout(() => {
+                splash.classList.add('splash-hidden');
+            }, 1000); // 1 sekunda, żeby użytkownik nacieszył oko logiem
+        });
+    </script>
 </body>
 </html>
